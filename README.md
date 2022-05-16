@@ -80,6 +80,22 @@ python solution.py
 
 This will create any analytical files in the desired location.
 
+## Pre-Commit Hooks
+
+The `.pre-commit-config.yaml` file configures the git hooks designed to be run before committing to the project. My coding quality standards for this repo include `flake8` and `black`.
+
+To begin, install the pre-commit hooks:
+```bash
+pre-commit install
+```
+
+One command for running the hooks on the files is:
+```bash
+pre-commit run --all-files
+```
+
+This will prevent any Python files from exhibiting poor code quality standards in the repo.
+
 ## Testing and Code Coverage
 
 All tests have been written using the `pytest` framework, which is optimally designed to allow programmers to write small and readable tests. `pytest` configuration is governed by the `pytest.ini` file - specifically in this case, it determines the path to ensure that `pytest` can find all of the tests within the project.
