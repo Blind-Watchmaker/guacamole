@@ -27,6 +27,7 @@ Within the root path, we also have some files that I have added:
 * `pytest.ini` - a file to configure the `pytest` testing framework
 * `.gitignore` - to tell Git to ignore committing certain files
 * `.pre-commit-config.yaml` - for pre-commit hooks to ensure code quality.
+* `.flake8` - to configure `flake8` for code quality.
 
 
 ## Installation
