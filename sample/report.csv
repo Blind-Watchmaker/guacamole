@@ -1,4 +1,3 @@
-
 Section,Sub-Section,Given DataType,Expected DataType,Given Length,Expected MaxLength,Error Code
 L1,L11,digits,digits,2,1,E03
 L1,L12,,word_characters,,3,E04
