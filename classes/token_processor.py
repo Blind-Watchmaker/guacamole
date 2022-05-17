@@ -61,7 +61,7 @@ class TokenProcessor(Processor):
             return DataTypes.MISSING.value
         if self.token.isdecimal():
             return DataTypes.DIGITS.value
-        if self.token.isalpha():
+        if all(x.isalpha() or x.isspace() for x in self.token):
             return DataTypes.WORD_CHARACTERS.value
         return DataTypes.OTHER.value
 
