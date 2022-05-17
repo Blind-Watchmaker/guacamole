@@ -109,6 +109,8 @@ concrete class `LineProcessor`.
 * `test_token_processor.py`: Tests functionality in the
 concrete class `TokenProcessor`.
 * `test_processor.py`: Tests functionality in the abstract base class `Processor` (required for the `coverage` tool and arguably unimportant).
+* `test_generator.py`: Tests functionality in the `Generator` class.
+* `test_utils.py`: Tests functionality in the `utils.py` file.
 
 To run `coverage` and `pytest` in combination, the following commands may be useful to you: 
 
